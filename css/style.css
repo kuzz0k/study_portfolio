@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
+.header-item:last-child{
+    margin-right: 0;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+}
+
